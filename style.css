@@ -1,0 +1,79 @@
+.bg-transparent{
+    background-color: transparent!important;
+}
+.bgimg{
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.635);
+    background-blend-mode:color;
+}
+.fw-bolderH1{
+    font-weight: 500;
+}
+
+input[type=email]{
+    width: 100%;
+    border: none;
+padding-left: 2%;
+    
+}
+input[type=email]:focus-visible{
+  border: none;
+}
+input[type=email]:focus{
+    outline: none;
+
+}
+.w-751{
+    width: 74%!important;
+}
+.bg-dangerch{
+    background-color: #DC0510;
+    padding: 0.756rem 1.42rem;
+}
+.border-52{
+    border-bottom: 8px solid #222222!important;
+}
+.bgblacsection{
+    background-color: #000000!important;
+}
+.bgred{
+    background-color: #E50914;
+}
+.accordion-item {
+    background-color: #303030!important;
+    color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+.collapsed{
+    background-color: #303030!important;
+    color: white;
+    font-size: 2rem;
+}
+.accordion-button{
+    background-color: #303030!important;
+    color: white;
+    font-size: 2rem;
+}
+.accordion-button:not(.collapsed) {
+    color: white!important;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-button {
+    border-bottom: 1px solid black;
+    
+}
+.accordion-button::after {
+   
+    background-image: url(./images/icons8-plus-100.png)!important;
+    filter: invert(1);
+    
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(./images/icons8-plus-100.png)!important;
+    transform: rotate(135deg);
+}
